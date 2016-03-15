@@ -5,7 +5,7 @@ require 'cyberplat/version'
 
 Gem::Specification.new do |spec|
   spec.name          = 'cyberplat'
-  spec.version       = CyberPlat::VERSION
+  spec.version       = CyberPlat::VERSION.dup
   spec.authors       = ['Aleksandr Grigorev']
   spec.email         = ['vill@weblayout.ru']
 
